@@ -7,7 +7,7 @@ import os
 
 app = FastAPI(title="ECG Block Ingest")
 
-BASE_DIR = Path("./ecg_data")
+BASE_DIR = Path("../ecg_data")
 BASE_DIR.mkdir(parents=True, exist_ok=True)
 
 HEADER = "#device=ESP32+AD8232\n#cols=t_ms,adc,lead_off\n"
