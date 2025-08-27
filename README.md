@@ -78,6 +78,8 @@ pip install fastapi uvicorn python-multipart
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
+![Screen Shot Backend](./assets/screen%20shot%20backend.png "Screen Shot Backend")
+
 Os arquivos CSV serão salvos em ./ecg_data/
 
 Documentação da API em http://localhost:8000/docs
@@ -91,6 +93,8 @@ Média de N leituras por amostra para suavizar
 Envio contínuo de blocos CSV via HTTP POST para o backend
 
 Retentativa em caso de falha de rede
+
+![Screen Shot ESP32](./assets/esp32%20board.jpeg "Screen Shot ESP32")
 
 Upload
 Instale o Arduino IDE ou PlatformIO.
@@ -112,6 +116,8 @@ Compile e faça upload para o ESP32.
 pip install matplotlib
 python scripts/ecg_live_view.py
 ```
+
+![Screen Shot Viewer](./assets/screen%20shot%20viewer.png "Screen Shot Viewer")
 
 Mostra gráfico contínuo de 10s, atualizando em tempo real.
 

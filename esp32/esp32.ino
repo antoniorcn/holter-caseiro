@@ -3,10 +3,10 @@
 #include <HTTPClient.h>
 
 // ===== WIFI/HTTP =====
-const char* WIFI_SSID = "BarberiniTaboao";
-const char* WIFI_PASS = "26042021";
+const char* WIFI_SSID = "<<WIFI SSID>>";
+const char* WIFI_PASS = "<<WIFI SENHA>>";
 // Ex.: "http://192.168.0.10:8000/ingest"
-String SERVER_URL = "http://192.168.68.108:8000/ingest";
+String SERVER_URL = "http://192.168.68.106:8000/ingest";
 
 // ===== ECG Pinos =====
 #define ECG_PIN       34   // AD8232 OUTPUT (ADC1)
